@@ -1,5 +1,5 @@
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 import Welcome from "./welcome";
 import Login from "./login";
@@ -7,7 +7,7 @@ import RoleSelection from "./roleselection";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Welcome />} />
         <Route path="/login" element={<Login />} />
@@ -16,7 +16,7 @@ function App() {
           element={<RoleSelection />}
         />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
