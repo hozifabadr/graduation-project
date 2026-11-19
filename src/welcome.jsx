@@ -44,11 +44,13 @@ function Welcome() {
 
                     {/* Caregiver Image */}
                     <div className="w-full max-w-[420px] h-[400px] rounded-dar-16 overflow-hidden">
+
                         <img
                             src={`${import.meta.env.BASE_URL}images/welcome.jpg`}
                             alt="Smiling caregiver in teal scrubs"
                             className="size-full object-cover object-top"
                         />
+
                     </div>
 
                     {/* Section Label */}
